@@ -1,0 +1,141 @@
+body {
+    background-color: #ebf8f8;
+    font-family: "Savate", sans-serif;
+    line-height: 1.6em;
+    color: #331515;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 50px;
+    background-color: rgb(51, 21, 21);
+}
+
+#logo img {
+    height: 100px;
+    width: auto;
+}
+
+#navbar ul {
+    display: flex;
+    font-size: 16px;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar a {
+    padding-right: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover {
+    color: #d22b2b;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.home {
+    background-image: linear-gradient(#000000b3, #000000b3), url(./Images/hero-img.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 500px;
+    color: white;
+    text-align: center;
+}
+
+.home h1 {
+    font-family: "Savate", sans-serif;
+    font-size: 60px;
+    padding-top: 50px;
+    line-height: 1.2;
+}
+
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    transition: all .45s ease;
+}
+
+.btn:hover {
+    background-color: #d22b2b;
+    color: white;
+    transform: scale(0.9);
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.about {
+    margin: 100px 0;
+}
+
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: #d22b2b;
+    border-radius: 3px;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 0;
+    border-left: 1px solid #d22b2b;
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.block li {
+    padding: 10px;
+    list-style: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.self-defence {
+    text-align: center;
+    margin: 100px 0;
+    padding: 50px;
+    border: 0;
+    border-left: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #d22b2b;
+}
+
+.self-defence ul {
+    list-style: none;
+}
+
+.btn1 {
+    text-align: center;
+    background-color: slategrey;
+}
+
+.self-defence .divider {
+    margin: 0 auto;
+}
+
+
