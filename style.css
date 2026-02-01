@@ -138,4 +138,124 @@ body {
     margin: 0 auto;
 }
 
+/* RESPONSIVENESS */
 
+/* Tablets */
+@media (max-width: 900px) {
+
+
+	.home h1 {
+		font-size: 45px;
+	}
+
+
+	.block {
+		width: 50%;
+	}
+
+
+	#logo img {
+		height: 80px;
+	}
+
+
+	#navbar a {
+		font-size: 14px;
+		padding-right: 18px;
+	}
+}
+
+/* Phones */
+@media (max-width: 600px) {
+
+
+	#logo img {
+		height: 60px;
+	}
+
+	/* Stack navigation vertically */
+	#navbar ul {
+		flex-direction: column;
+		background-color: rgb(51, 21, 21);
+		position: absolute;
+		right: 0;
+		top: 50px;
+		width: 100%;
+		display: none;
+		/* hidden by default */
+		padding: 20px 0;
+		text-align: center;
+	}
+
+	/* Show menu when toggled */
+	#navbar ul.show {
+		display: block;
+	}
+
+
+	#navbar a {
+		padding: 10px;
+		display: block;
+		font-size: 16px;
+	}
+
+	#menu-btn {
+		display: none;
+		font-size: 28px;
+		color: white;
+		cursor: pointer;
+		margin-right: 20px;
+	}
+
+
+	#menu-btn {
+		display: block;
+	}
+
+
+	.block {
+		float: none;
+		width: 100%;
+		margin-top: 10px;
+		border-left: 1px solid #d22b2b;
+	}
+
+	.home {
+		background-image: linear-gradient(#000000b3, #000000b3), url(./Images/hero-img.jpg);
+		background-position: left;
+	}
+
+
+	.home h1 {
+		font-size: 32px;
+		padding-top: 40px;
+	}
+
+	.home p {
+		font-size: 16px;
+	}
+
+
+	.self-defence {
+		padding: 20px;
+		margin: 60px 0;
+	}
+
+	.self-defence ul {
+		padding: 20px;
+	}
+
+
+	.container {
+		width: 90%;
+	}
+
+	#header {
+		padding-right: 20px;
+	}
+
+	#menu-btn {
+		margin-left: auto;
+		margin-right: 0;
+	}
+}
